@@ -15,11 +15,11 @@ export default function Page() {
         <div className="flex flex-col justify-center gap-6 rounded-lg bg-gray-50 px-6 py-10 md:w-2/5 md:px-20">
       
           <p className={`${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
-            <strong>Welcome to Paradise Tech.</strong> This is the example for the{' '}
-            <a href="https://nextjs.org/learn/" className="text-blue-500">
-              Next.js Learn Course
+            <strong>欢迎来到 - 天堂游戏</strong> 请按此链接进入公司的网页{' '}
+            <a href="https://paradiseio.com/" className="text-blue-500">
+              天堂游戏有限公司
             </a>
-            , brought to you by Vercel.
+            , 带来给您不同的娱乐方式！
           </p>
           <Link
             href="/login"
